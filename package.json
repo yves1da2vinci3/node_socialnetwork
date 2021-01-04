@@ -1,0 +1,35 @@
+{
+  "name": "hack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "express-session": "^1.17.1",
+    "express-validator": "^5.3.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "mongoose-express-session": "0.0.5",
+    "nodemailer": "^6.4.17",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-facebook": "^3.0.0",
+    "twilio": "^3.54.1"
+  }
+}
